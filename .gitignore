@@ -1,0 +1,9 @@
+# Julia
+Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# output of the examples
+examples/results_*/
+results_*/

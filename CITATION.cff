@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use NodalEMT.jl, please cite the paper below."
+title: "NodalEMT.jl"
+version: 1.0.0
+license: BSD-3-Clause
+repository-code: "https://github.com/ramivar9/NodalEMT.jl"
+authors:
+  - family-names: Alla
+    given-names: Ravi Teja
+    affiliation: Arizona State University
+  - family-names: Ramapuram Matavalam
+    given-names: Amarsagar Reddy
+    affiliation: Arizona State University
+preferred-citation:
+  type: conference-paper
+  title: "NodalEMT.jl: An Open-Source Simulator for Fast Multi-Scenario EMT Studies on Multicore CPUs"
+  authors:
+    - family-names: Alla
+      given-names: Ravi Teja
+    - family-names: Ramapuram Matavalam
+      given-names: Amarsagar Reddy
+  conference:
+    name: "2027 IEEE Power & Energy Society General Meeting"
+  year: 2027
+  status: submitted

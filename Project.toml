@@ -1,0 +1,29 @@
+name = "NodalEMT"
+uuid = "ab143c8f-a402-4f13-9321-e34a7ac55546"
+authors = ["Ravi Teja Alla <ravi.teja@asu.edu>", "Amarsagar Reddy Ramapuram Matavalam <amar.sagar@asu.edu>"]
+version = "1.0.0"
+
+[deps]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PowerFlows = "94fada2c-fd9a-4e89-8d82-81405f5cb4f6"
+PowerSystems = "bcd98974-b02a-5e2f-9ee0-a103f5c450dd"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+JSON = "0.21, 1"
+LinearAlgebra = "1"
+PowerFlows = "0.25"
+PowerSystems = "5.12"
+PrecompileTools = "1"
+Printf = "1"
+SparseArrays = "1"
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
